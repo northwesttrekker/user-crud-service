@@ -1,0 +1,5 @@
+Requirements
+Python 3.x
+Flask
+Flask-JWT
+Flask-SQLAlchemy
