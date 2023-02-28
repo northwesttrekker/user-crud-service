@@ -1,21 +1,42 @@
-user-crud-service/
+Project Structure:
 
-  ├── app.py
+  user-crud-service/
 
-  ├── db.sqlite
+    ├── app.py
 
-  ├── models.py
+    ├── db.sqlite
 
-  ├── README.md
+    ├── models.py
 
-  └── requirements.txt
+    ├── README.md
 
-  app.py - This is the main Flask application file that contains all the routes and endpoints for the user CRUD service.
+    └── requirements.txt
 
-  db.sqlite - This is the SQLite database file that stores all the user information.
+    app.py - This is the main Flask application file that contains all the routes and endpoints for the user CRUD service.
 
-  models.py - This file defines the User model for the database.
+    db.sqlite - This is the SQLite database file that stores all the user information.
 
-  README.md - This is the documentation file that explains how to build/run the project.
+    models.py - This file defines the User model for the database.
 
-  requirements.txt - This file contains all the Python packages required for the project.
+    README.md - This is the documentation file that explains how to build/run the project.
+
+    requirements.txt - This file contains all the Python packages required for the project.
+  
+Installation:
+
+  1. Clone the repository.
+     $ git clone https://github.com/northwesttrekker/user-crud-service.git
+  
+  2. Install the required packages.
+
+     $ cd user-crud-service
+     $ pip install -r requirements.txt
+
+Usage:
+
+  Run the Flask application:
+  
+  $ export FLASK_APP=app.py
+  
+  $ flask run
+  
