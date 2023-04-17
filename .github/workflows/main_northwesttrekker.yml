@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'northwesttrekker'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_83C122704EFC4707992C3F4713B912E1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_861BC987B1A644F592E35777195D4A6D }}
           package: .
